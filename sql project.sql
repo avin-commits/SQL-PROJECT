@@ -92,7 +92,7 @@ LIMIT 10;
 
 # INNER JOIN - Only matching rows
 
-SELECT a.age AS user1_age,a.gender AS user1_gender, a.stress_level, b.age AS user2_age,b.gender AS user2_gender
+SELECT a.age AS user1_age,a.gender AS user1_gender,a.stress_level,b.age AS user2_age,b.gender AS user2_gender
 FROM Teen_Mental_Health_Dataset a
 INNER JOIN Teen_Mental_Health_Dataset b
 ON a.stress_level = b.stress_level
